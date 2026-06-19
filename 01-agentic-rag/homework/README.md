@@ -1,5 +1,5 @@
 # LLM Zoomcamp
-[Course is here] (https://github.com/DataTalksClub/llm-zoomcamp/tree/main)
+[Course is here](https://github.com/DataTalksClub/llm-zoomcamp/tree/main)
 
 ## Module 1 - Agentic RAG
 
