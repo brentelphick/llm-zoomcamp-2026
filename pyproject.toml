@@ -18,4 +18,5 @@ dependencies = [
 members = [
     "01-agentic-rag/homework",
     "02-vector-search",
+    "02-vector-search/homework",
 ]
