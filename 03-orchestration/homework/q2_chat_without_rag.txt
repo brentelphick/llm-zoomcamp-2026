@@ -1,0 +1,29 @@
+INFO 2026-07-05T23:21:23.824284Z ❌ Response WITHOUT RAG (no retrieved context):
+Kestra 1.1 introduced several exciting features that significantly enhanced its capabilities and user experience. Here are at least 5 major features with brief descriptions:
+
+1.  **Declarative Input and Output Schema for Flows:**
+    *   **Description:** This feature allows users to define the expected input and output data structures for their flows using a declarative schema (e.g., JSON Schema). This enables Kestra to validate input data before a flow starts, ensuring correctness, and to provide a clear contract for the flow's output. It also facilitates automatic UI generation for input forms and better integration with other systems.
+
+2.  **Plugin Development Kit (PDK):**
+    *   **Description:** Kestra 1.1 unveiled a more robust and streamlined Plugin Development Kit. This PDK makes it significantly easier for developers to create custom tasks and triggers that extend Kestra's functionality. It provides clearer guidelines, helper utilities, and better integration points, accelerating the development and maintenance of community and private plugins.
+
+3.  **Enhanced Task Run Logs with Context:**
+    *   **Description:** Log management and readability were greatly improved. Task run logs now include more contextual information, making it easier to debug and understand the state of a task. This might include details about the flow, task, and execution, providing a richer logging experience and faster troubleshooting.
+
+4.  **Improved Namespace and Flow Security (ACLs):**
+    *   **Description:** Kestra 1.1 brought more granular control over security through enhanced Access Control Lists (ACLs) for namespaces and flows. Users could now define specific permissions for different roles or users, controlling who can view, edit, execute, or delete flows and namespaces. This is crucial for larger organizations requiring strict access management.
+
+5.  **Blueprint Generation from Flows:**
+    *   **Description:** This feature allows users to generate "blueprints" directly from existing flows. Blueprints are essentially templatized versions of flows that can be easily reused and shared across different teams or instances. This promotes best practices, reduces duplication, and accelerates the creation of new flows based on proven patterns.
+
+6.  **Improved Error Handling and Retries:**
+    *   **Description:** While Kestra always had error handling, version 1.1 refined and expanded its capabilities for handling failures and retrying tasks. This often included more flexible retry policies (e.g., exponential backoff, custom conditions) and better mechanisms for catching and responding to errors, leading to more resilient and fault-tolerant workflows.
+
+These features collectively made Kestra 1.1 a significant step forward in terms of developer experience, operational control, and the ability to build more robust and scalable data orchestration pipelines.
+
+🤔 Did you notice that this response seems to be:
+- Incorrect?
+- Vague/generic?
+- Listing features that haven't been added in exactly this version but rather a long time ago?
+
+👉 This is why context matters! Run `2_chat_with_rag.yaml` to see the accurate, context-grounded response.
